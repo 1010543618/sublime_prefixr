@@ -1,3 +1,4 @@
+// windows默认按键
 [
 	{ "keys": ["ctrl+alt+x"], "command": "prefixr" }
 ]

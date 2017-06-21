@@ -1,3 +1,4 @@
+// osx默认按键
 [
 	{ "keys": ["ctrl+super+x"], "command": "prefixr" }
 ]

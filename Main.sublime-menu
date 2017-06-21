@@ -1,9 +1,18 @@
+//菜单栏相关的配置
 [
     {
+        //选择主菜单（edit）
         "id": "edit",
+        //选择主菜单下的子菜单（edit的子菜单）
         "children":
         [
-            {"id": "wrap"},
+            {
+                //选择菜单（edit->wrap）
+                "id": "wrap",
+                //在这个选项下面添加选项（添加在wrap里面，并且执行view.run_command('prefixr')）
+                "children": [{"command": "prefixr"}]
+            },
+            //添加的选项（添加在wrap下面，并且执行view.run_command('prefixr')）
             { "command": "prefixr" }
         ]
     },
